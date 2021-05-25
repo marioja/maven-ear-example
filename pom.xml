@@ -4,7 +4,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.example</groupId>
    <artifactId>application</artifactId>
-   <version>1.0-SNAPSHOT</version>
+   <version>${revision}.${sha1}${changelist}</version>
    <packaging>pom</packaging>
    <name>face application</name>
 
@@ -16,6 +16,9 @@
 
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <revision>2.0</revision>
+      <sha1>0</sha1>
+      <changelist>-SNAPSHOT</changelist>
    </properties>
 
    <dependencyManagement>
@@ -23,14 +26,14 @@
          <dependency>
             <groupId>com.example</groupId>
             <artifactId>module-ejb</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
             <type>ejb</type>
          </dependency>
 
          <dependency>
             <groupId>com.example</groupId>
             <artifactId>module-web</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
             <type>war</type>
             <scope>compile</scope>
          </dependency>
