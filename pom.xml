@@ -76,7 +76,7 @@
                   <modules>
                      <webModule>
                         <groupId>com.example</groupId>
-                        <artifactId>module-web</artifactId>
+                        <artifactId>ModuleWeb</artifactId>
                         <contextRoot>/</contextRoot>
                      </webModule>
                   </modules>
