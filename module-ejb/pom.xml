@@ -9,7 +9,7 @@
       <version>1.0-SNAPSHOT</version>
    </parent>
 
-   <artifactId>module-ejb</artifactId>
+   <artifactId>ModuleEJB</artifactId>
    <packaging>ejb</packaging>
 
    <dependencies>
