@@ -8,11 +8,6 @@
    <packaging>pom</packaging>
    <name>face application</name>
 
-   <modules>
-      <module>module-ejb</module>
-      <module>module-web</module>
-      <module>module-ear</module>
-   </modules>
 
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -111,4 +106,9 @@
       </profile>
    </profiles>
 
+   <modules>
+     <module>ModuleEAR</module>
+     <module>ModuleEJB</module>
+     <module>ModuleWeb</module>
+   </modules>
 </project>
