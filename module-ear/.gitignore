@@ -5,6 +5,3 @@
 .classpath
 .factorypath
 .settings
-**/META-INF/application.xml
-**/META-INF/MANIFEST.MF
-**/META_INF/maven/
